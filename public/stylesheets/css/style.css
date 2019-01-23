@@ -1,7 +1,7 @@
 body{
 	padding: 0;
     margin: 0;
-    background: #fff;
+    background: black;
     letter-spacing: 1px;
 	font-family: 'Montserrat', sans-serif;
 }
@@ -28,6 +28,22 @@ header,
 
 .cv{
 	font-size: 40px;
+}
+a{
+	text-decoration: none;
+}
+.sticky{
+	background: rgb(14, 2, 2);
+	height: 300px;
+	margin-top: 250px;
+	margin-left: 50px; 
+	margin-right:50px;
+	opacity: 0.6;
+}
+.name{
+	border: 1px solid white;
+	width: auto;
+	margin: 20px;
 }
 /*-- menu-navigation --*/
 .menu {
@@ -201,6 +217,36 @@ header,
 	opacity: 1;
 }
 /*-- //menu-navigation --*/
+
+/* footer */
+.samdos{
+	transform: translateY(40px);
+	color: #fff;
+	font-size: 18px;
+	margin: 20px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 500px){
 	.cv{
