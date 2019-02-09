@@ -10,4 +10,16 @@ router.get('/about', function(req, res, next) {
   res.render('about');
 });
 
+router.get('/experience', function(req, res, next) {
+  res.render('experience');
+});
+
+router.get('/education', function(req, res, next) {
+  res.render('education');
+});
+
+router.get('/contact', function(req, res, next) {
+  res.render('contact');
+});
+
 module.exports = router;
