@@ -22,4 +22,8 @@ router.get('/contact', function(req, res, next) {
   res.render('contact');
 });
 
+router.get('/error', function(req, res, next) {
+  res.render('unprocessed');
+});
+
 module.exports = router;
